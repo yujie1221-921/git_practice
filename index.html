@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的自我介紹</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 40px 20px;
+        }
+
+        header img {
+            width: 150px;
+            border-radius: 50%;
+            margin-top: 10px;
+        }
+
+        section {
+            background: white;
+            margin: 20px;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        button {
+            padding: 10px 20px;
+            background-color: #333;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>你的名字</h1>
+        <p>前端工程師 / 學生</p>
+        <img src="your-photo.jpg" alt="我的照片">
+    </header>
+
+    <section>
+        <h2>關於我</h2>
+        <p>你好！我是XXX，對網站開發充滿興趣，喜歡學習新技術並實作各種專案。</p>
+    </section>
+
+    <section>
+        <h2>技能</h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>聯絡方式</h2>
+        <p>Email：your@email.com</p>
+    </section>
+
+    <section>
+        <h2>互動</h2>
+        <button onclick="sayHi()">點我打招呼</button>
+    </section>
+
+    <script>
+        function sayHi() {
+            alert("你好！歡迎來到我的網站！");
+        }
+    </script>
+
+</body>
+</html>
